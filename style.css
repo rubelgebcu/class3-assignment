@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-size: 16px;
+}
+
+header{
+    background-color: #deec11;
+    padding: 20px 0;
+}
+.container{
+    width: 1200px;
+    
+    margin: auto;
+}
+.logo{}
+.logo a{}
+.logo a img{
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+nav{}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a {
+    color: rgb(10, 2, 6);
+    font-size: 22px;
+    text-decoration: none;
+    padding: 10px 20px;
+
+    display: block;
+}
+nav ul li a:hover{
+    background-color: rgb(235, 13, 13);
+    transition: all .5s ease;
+    border-radius: 20px;
+}
+
+.service-section{
+    background-color: blue;
+    padding: 80px 0 ;
+    padding-bottom: 50px;
+}
+.column{
+    width: 25% ;
+    padding: 15px;
+    
+}
+.service{
+   box-shadow: 0 10 20 0 #f5f1f1;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid;
+    
+}
+
+
+.service div{
+
+    padding: 20px;
+}
+
+  
+    
+.service img{
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+.service h1{
+    font: 50px;
+    font-weight: 900;
+    color: #e81212;
+}
+.service p{
+    font-size: 20px;
+    color: #f0f8ff;
+}
+.flex{
+    display: flex;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.heading h1{
+    font-size: 50px;
+    font-weight: 900px;
+    color: #e81212;
+}
+.heading p{
+    font-size: 20px;
+    width: 200px;
+    margin: auto;
+    font-weight: 900px;
+    color: #ffebcd;
+}
+
+.contact-section{
+    padding: 100px 0 ;
+    background-color: aqua;
+   
+   background-image: url(images/footer.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.contact-section div{
+    text-align: center;
+    padding: 10px 0;
+}
+  
+    
+
+    
+
+
+.contact-section p{
+    font-size: 20px;
+}
+.contact-section h1{
+    font-size: 30px;
+    font-weight: 900px;
+    color: #e81212;
+}
